@@ -1,0 +1,98 @@
+  <main>
+    <div class="contact">
+      <h1>Contact US</h1>
+      <h3>Online Customer Service</h3>
+      <p>Drop us a line through the form below, and we will get back to you ASAP</p>
+      <!-- <form action="https://formspree.io/f/{form_id}" method="post">
+        <label for="name">Full Name</label>
+          <input name="name" id="name" type="name">
+        <label for="email">Your Email</label>
+            <input name="Email" id="email" type="email">
+        <label for="message">Message</label>
+            <textarea name="message" id="message" type="message"></textarea>
+        <button type="submit">Submit</button>
+      </form> -->
+    </div>
+
+  </main> 
+  <style>
+    /* main class element */
+.contact{
+  height: 100vh;
+}
+
+/* main */
+main{
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+/* texts */
+h1, h3, p{
+  text-align: center; 
+}
+
+/* contact form */
+form{
+  
+  display: grid;
+  grid-template-columns: max-content .5fr;
+  grid-template-rows: 3rem 3rem 5rem;
+  padding: 5em;
+  gap: 1em;
+  padding: 2em;
+  
+  
+  font-size: clamp(1.5rem, 2vw, 4rem); 
+  color: hsl(150, 90%, 90%);;
+}
+
+/* form label class */
+.label {
+  grid-template-columns: subgrid;
+  display: grid;
+  grid: inherit;
+  grid-gap: inherit;
+  grid-template-columns: subgrid;
+  grid-column: span 2;
+  
+}
+label{
+  cursor: pointer;
+  
+}
+
+/* where people would write */
+input, textarea{
+  border: 3px solid hsl(36, 69%, 30%);
+  border-radius: 5px;
+  padding: 0.5em;
+  font-size: clamp(1rem, 1.5vw, 2rem); 
+}
+
+/* submit button */
+button{
+  font-size: clamp(1.5rem, 2vw, 4rem); 
+  background-color: rgb(17, 59, 71);
+  border: none;
+  border-radius: 5px;
+  color: hsl(170, 30%, 80%);
+}
+
+/* button hover */
+button:hover{
+  background-color: rgb(21, 25, 26);
+  color: rgba(235, 235, 235, 0.733);
+  cursor: pointer;
+}
+
+/* responsive on mobile */
+@media only screen and (max-width: 60em) {
+  form{
+    display: grid;
+    grid-template-rows: auto;
+    padding-left: 1rem;
+  }
+
+}
+
+  </style>
