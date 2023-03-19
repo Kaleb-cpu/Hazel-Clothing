@@ -105,32 +105,28 @@
 <style>
   .gallery{
   display: grid;
-  gap: 2rem;
-  grid-template-columns: auto;
+  row-gap: 1rem;
   grid-template-rows: auto;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
-/* gallery direct children */
-.gallery > * {
-  scroll-snap-align: end;
-}
 
 /* each media group with 3 children */
 .media-group {
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: auto auto auto;
   gap: 1rem;
 }
 
 /* media group child */
 .media-element{
-  display: grid;
-  gap: 0.2rem;
-  padding: 1em;
   margin: 0;
+  padding: 1em;
+  
   border-radius: 15px;
   background-color: rgba(126,126,126,1);
-  
 }
 
 /* images within media-element */
