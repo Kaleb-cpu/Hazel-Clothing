@@ -20,9 +20,10 @@
     </nav>
   </header>
 
-  
-  <!-- company footer navigation -->
-  <!-- <footer>
+   <slot></slot>
+
+  <!-- company footer navigation  -->
+  <footer>
     <div class="nav-media">
       <nav>
         <ul class="footer-nav">
@@ -33,7 +34,7 @@
       </nav>
     </div>
 
-      company social media
+      <!-- company social media -->
     <div class="social-media">
       <a href="https://twitter.com/explore"><i class="fa-brands fa-twitter"></i></a>
       <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
@@ -41,17 +42,17 @@
       <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
     </div>
       
-    company information -->
-    <!-- <div class="copy-right">
+    <!-- company information -->
+   <div class="copy-right">
       <p>TERMS OF USE</p>
       <p>PRIVACY AND POLICY</p>
       <p>&copy; Kaleb Berhane. All rights reserved</p>
     </div>
-  </footer> -->
+  </footer>
 
 
   <style>
 
   </style>
-  <slot></slot>
+  <!-- <slot></slot> -->
   

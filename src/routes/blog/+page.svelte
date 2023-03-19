@@ -28,28 +28,17 @@
             </div>
           </a>
           <div class="card">
-            <iframe src="./videos/birklin.mp4"  title="expensive birkin bags"  width="300" height="300"></iframe> 
+            <video src="./videos/birklin.mp4" autoplay muted controls title="expensive birkin bags"  width="500" height="300"></video> 
             <h4>Berkin Bags</h4> 
             <p>Berkin Bags are One of the most luxirious bags. Birkin bags are handmade from leather and are named after the English-French actress and singer Jane Birkin.</p>
           </div>
         </div>
-          
-
-
-
-      
-      
 
     </section>
     
   </main>
 
   <style>
-    *{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
 
 /* page title */
 h1{

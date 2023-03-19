@@ -106,13 +106,8 @@
   .gallery{
   display: grid;
   gap: 2rem;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-  padding: 0.5rem 2rem;
-  overflow-x: auto;
-  overscroll-behavior-inline: contain;
-  scroll-snap-type: inline mandatory;
-  
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
 /* gallery direct children */
