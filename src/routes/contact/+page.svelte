@@ -1,6 +1,11 @@
+  <svelte:head>
+	<title>contact</title>
+	<meta name="robots" content="noindex nofollow" />
+	<html lang="en" />
+</svelte:head>
   <main>
+    <h1>Contact US</h1>
     <div class="contact">
-      <h1>Contact US</h1>
       <h3>Online Customer Service</h3>
       <p>Drop us a line through the form below, and we will get back to you ASAP</p>
       <form
@@ -43,6 +48,8 @@ h1, h3, p{
   color: #26282b;
 }
 
+
+ 
 /* contact form */
   form{
   

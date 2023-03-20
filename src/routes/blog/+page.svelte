@@ -1,6 +1,12 @@
+  <svelte:head>
+	<title>blog</title>
+	<meta name="robots" content="noindex nofollow" />
+	<html lang="en" />
+</svelte:head>
+  
   <main>
-    <h1>BLOG</h1>
     <section>
+      <h1>BLOG</h1>
       <div class="rows">
         <div class="title">
           <h2>5 Reasons to love Belkin</h2>

@@ -1,3 +1,9 @@
+    <svelte:head>
+	    <title>home</title>
+	    <meta name="robots" content="noindex nofollow" />
+	    <html lang="en" />
+    </svelte:head>
+      
       <main>
       <h1>Spring Season is here!!</h1>
       <div class="gallery">
