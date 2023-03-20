@@ -27,7 +27,7 @@
     <!-- header navigation -->
     <nav>
       <ul class="main-nav">
-        <li><a href="./">Home</a></li>
+        <li><a href="./home">Home</a></li>
         <li><a href="./blog">Blog</a></li>
         <li><a href="./contact">Contact</a></li>
       </ul>
@@ -43,7 +43,7 @@
     <div class="nav-media">
       <nav>
         <ul class="footer-nav">
-          <li><a href="./">Home</a></li>
+          <li><a href="./home">Home</a></li>
           <li><a href="./blog">Blog</a></li>
           <li><a href="./contact">Contact</a></li>
         </ul>
