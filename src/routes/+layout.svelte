@@ -5,7 +5,7 @@
 <header>
 	<!-- header navigation logo and title -->
 
-	<a href="./" class="logo">
+	<a href="/" class="logo">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="100"
@@ -32,9 +32,9 @@
 	<!-- header navigation -->
 	<nav>
 		<ul class="main-nav">
-			<li><a href="./home">Home</a></li>
-			<li><a href="./blog">Blog</a></li>
-			<li><a href="./contact">Contact</a></li>
+			<li><a href="/">Home</a></li>
+			<li><a href="/blog">Blog</a></li>
+			<li><a href="/contact">Contact</a></li>
 		</ul>
 	</nav>
 </header>
@@ -46,9 +46,9 @@
 	<div class="nav-media">
 		<nav>
 			<ul class="footer-nav">
-				<li><a href="./home">Home</a></li>
-				<li><a href="./blog">Blog</a></li>
-				<li><a href="./contact">Contact</a></li>
+				<li><a href="/">Home</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/contact">Contact</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -69,6 +69,5 @@
 	</div>
 </footer>
 
-<!-- <slot></slot> -->
 <style>
 </style>
