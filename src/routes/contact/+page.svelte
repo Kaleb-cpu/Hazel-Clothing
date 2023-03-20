@@ -3,15 +3,25 @@
       <h1>Contact US</h1>
       <h3>Online Customer Service</h3>
       <p>Drop us a line through the form below, and we will get back to you ASAP</p>
-      <!-- <form action="https://formspree.io/f/{form_id}" method="post">
-        <label for="name">Full Name</label>
-          <input name="name" id="name" type="name">
-        <label for="email">Your Email</label>
-            <input name="Email" id="email" type="email">
-        <label for="message">Message</label>
-            <textarea name="message" id="message" type="message"></textarea>
-        <button type="submit">Submit</button>
-      </form> -->
+      <form
+  action="https://formspree.io/f/xqkodero"
+  method="POST"
+>
+
+  
+
+   <label for="fullname">Full Name</label>
+    <input type="name" name="name">
+
+    <label for="email">Email Address</label>
+    <input type="email" name="email">
+  
+    <label for="message">Message</label>
+    <input type="text" name="message">                                                         
+                                                        
+    <button type="submit">Send</button>
+                                                          
+</form>
     </div>
 
   </main> 
@@ -23,60 +33,68 @@
 
 /* main */
 main{
-  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  background: #90b8f8;
   flex: auto;
 }
 
 /* texts */
 h1, h3, p{
   text-align: center; 
+  color: #26282b;
 }
 
 /* contact form */
-form{
-  
-  display: grid;
-  grid-template-columns: max-content .5fr;
-  grid-template-rows: 3rem 3rem 5rem;
-  padding: 5em;
-  gap: 1em;
-  padding: 2em;
+  form{
   
   
+  width: 25ch;
+  background:#353941;
+  border-radius: 17px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+  margin-left: 2em;
   font-size: clamp(1.5rem, 2vw, 4rem); 
-  color: hsl(150, 90%, 90%);;
+  
 }
 
 /* form label class */
-.label {
-  grid-template-columns: subgrid;
-  display: grid;
-  grid: inherit;
-  grid-gap: inherit;
-  grid-template-columns: subgrid;
-  grid-column: span 2;
-  
-}
-label{
+
+label {
+  display: block;
+  text-align: start;
+  color: #f2f2f2;
+  font-weight: 600;
+  font-size: clamp(1rem, 1.5vw, 2rem); 
   cursor: pointer;
-  
+  padding-bottom: 0.5em;
+  padding-top: 0.3em;
 }
 
+
 /* where people would write */
-input, textarea{
-  border: 3px solid hsl(36, 69%, 30%);
+input {
+  border: 3px solid #5f85db;
   border-radius: 5px;
-  padding: 0.5em;
+  padding: 0.6em;
   font-size: clamp(1rem, 1.5vw, 2rem); 
+}
+input[type="text"]:focus, input[type="email"]:focus {
+border: 3px solid white;
 }
 
 /* submit button */
 button{
+  border: none;
+  height: 50px;
+   width: 100%;
   font-size: clamp(1.5rem, 2vw, 4rem); 
   background-color: rgb(17, 59, 71);
   border: none;
   border-radius: 5px;
   color: hsl(170, 30%, 80%);
+  transition: transform .5s;
+  margin-top: 0.6em;
 }
 
 /* button hover */
@@ -84,6 +102,7 @@ button:hover{
   background-color: rgb(21, 25, 26);
   color: rgba(235, 235, 235, 0.733);
   cursor: pointer;
+  transform: scale(1.03);
 }
 
 /* responsive on mobile */
@@ -92,6 +111,7 @@ button:hover{
     display: grid;
     grid-template-rows: auto;
     padding-left: 1rem;
+    width: 15ch;
   }
 
 }

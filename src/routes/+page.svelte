@@ -1,5 +1,5 @@
       <main>
-      <h1>Spring Season is here</h1>
+      <h1>Spring Season is here!!</h1>
       <div class="gallery">
         <div class="media-group">
          <a href="https://urban-planet.com/">
@@ -122,7 +122,9 @@
 .media-group {
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 1rem;
+  justify-items: center;
+
+  
 }
 
 /* media group child */
@@ -131,20 +133,21 @@
   padding: 1em;
   
   border-radius: 15px;
-  background-color: rgba(126,126,126,1);
+  background-color: #90b8f8;
+  width: 25rem;
+  
 }
 
 /* images within media-element */
 .media-element > img{
   width: 100%;
   aspect-ratio: 16/9;
-  object-fit: cover;
-  display: inline-block; 
+  object-fit: cover; 
 }
 
 /* hover state for media element */
 .media-element:hover {
-  background-color: #1b6b70;
+   opacity: 0.5;
 }
 
 /* media element select  */
@@ -158,6 +161,7 @@
 h1{
   font-size: clamp(2.5rem, 10vw, 3.5rem); 
   line-height: 1.2em;
+  color: #abecf5;
 }
 
 
@@ -172,13 +176,13 @@ button{
   justify-content: flex-end;
   
   font-size: clamp(1rem, 1.9vw, 3rem); 
-  background-color: aqua;
+  background-color: #90b8f8;
   border: none;
   border-radius: 5px;
 }
 
 button:hover{
-  background-color: rgba(0, 183, 255, 0.911);
+  background-color: #5f85db;
   cursor: pointer;
 }
 
@@ -189,20 +193,16 @@ button:hover{
 @media only screen and (max-width: 60em) {
   
   
-  .gallery{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    scroll-padding-inline: 0.5rem 0.5rem;
-    
-  }
-  
-  .media-element{
+.media-group {
+  display: grid;
+  grid-template-columns: 1fr;
 
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(11em, 1fr));
-    scroll-snap-align: start;
-    
-  }
-  
+}
+
+.media-element{
+  margin-bottom: 1rem;
+  width: 17rem;
+}
+
 }
 </style>

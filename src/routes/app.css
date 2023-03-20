@@ -6,7 +6,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   box-sizing: border-box;
-  background: radial-gradient(circle, #232526 0%, #414345 100%); 
+  background-color: #353941;
   
  }
 
@@ -22,7 +22,7 @@
    justify-content: space-between;
    
    /* color */
-   background: radial-gradient(circle,  #ADA996 0%, #EAEAEA 100%); 
+   background-color: #26282b; 
    
   }
 
@@ -48,7 +48,7 @@
    font-size: 1.5rem;
    font-family: 'Modern Antiqua', Verdana, Geneva, Tahoma, cursive, sans-serif;
    font-size: clamp(1.5rem, 3.5vw, 4rem); 
-   color: #232526;
+   color: #90b8f8;
   }
 
    /* logo image */
@@ -62,13 +62,7 @@
   /* main nav bar */
   .main-nav{
     display: flex;
-    list-style: none;
-    
-    
- 
-    /* nav bar fonts */
-    font-family: 'Lato', Franklin Gothic Medium, Arial Narrow, sans-serif;
-    font-size: clamp(1rem, 2.5vw, 1.5rem); 
+    list-style: none; 
 
 }
 
@@ -80,8 +74,8 @@
    
    /* color and fonts */
    text-decoration: none;
-   font-size: clamp(0.6rem, 2vw, 4rem); 
-   color: black;
+   font-size: clamp(0.7rem, 3.5vw, 2rem); 
+   color: #90b8f8;
  }
  
  /* nav bar hover state */
@@ -110,7 +104,7 @@
 
 /* footer start */
 footer{
-  background-color: darkcyan;
+  background-color: #26282b;
   
   
 }
@@ -133,7 +127,7 @@ footer{
 
 /* nav anchor */
 .footer-nav a{
-  color: black;
+  color: #90b8f8;
   padding: 0.5em;
   display: inline-block;
   text-decoration: none;
@@ -148,16 +142,17 @@ footer{
   
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: clamp(0.5rem, 2vw, 1rem); 
+  color: #90b8f8;
   
 } 
 
 /* terms and conditions on hover */
 .copy-right a{
-  color: black;
+  color: #90b8f8;
 }
 
 .copy-right a:hover{
-  background-color: whitesmoke;
+  background-color: #90b8f8;
   border-radius: 10px;
 }
 
@@ -169,6 +164,7 @@ footer{
   margin-right: 3em;
   gap: 1em;
   
+  
 }
 
 
@@ -179,7 +175,7 @@ footer{
 
 /* social media anchor tag */
 .social-media a{
-  color: black;
+  color: #90b8f8;
 }
 
 /* navigation hover state */
@@ -208,13 +204,18 @@ footer{
 
   .hamburger div {
   position: relative;
-  width: 3em;
-  height: 7px;
+  width: 2em;
+  height: 0.3em;
   border-radius: 3px;
-  background-color: blue;
-  margin-top: 8px;
+  background-color: #90b8f8;
+  margin-top: 0.4rem;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  
+}
+
+.hamburger {
+  margin-top: 0.7em;
 }
 
   nav {
@@ -266,6 +267,24 @@ footer{
 #toggle:checked + .hamburger + nav {
   top: 0;
   transform: scale(1);
+}
+
+.hamburger:has(input:checked) + .main-nav{
+  translate: 0;
+}
+
+
+
+.main-nav{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 1em;
+}
+
+.main-nav a{
+  color: #26282b ;
+  font-weight: bold;
 }
 }
 

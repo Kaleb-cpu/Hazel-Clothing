@@ -44,11 +44,13 @@
     }
 /* page title */
 h1{
-  color: brown;
+  color: #abecf5;
   font-size: clamp(1rem, 10vw, 4rem); 
   text-align: center;
-  
-  
+}
+
+h2{
+  color: #90b8f8;
 }
 /* parent */
 section{
@@ -67,9 +69,10 @@ section .rows{
   text-align: center;
 }
 .card img{
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: initial;
   object-fit: cover;
+  border-radius: 10px;
   
 }
 
@@ -80,18 +83,18 @@ section .rows{
   grid-auto-flow: column;
   grid-auto-columns: 2fr 2fr 2fr 4fr;
   
- 
 }
 
 /* card holder */
 .card{
-  flex: 1;
-  margin: 2rem 1.5rem;
+
+  margin: 2rem 1rem;
 }
 
 /* border box only on images */
 .card:nth-child(-n+3){
-  box-shadow: 0px 0px 7px 0px darkred;
+  border: solid 5px #26282b;
+  border-radius: 10px;
 
 }
 /* inside card title 2 */
@@ -105,27 +108,27 @@ section .rows{
 .content h4 {
     padding: 1rem;
     font-size: clamp(1rem, 2.5vw, 1.5rem); 
-    color: hsla(0, 93%, 30%, 0.788);
+    color: #90b8f8;
 }
 
 
   /* inside card paragraph */
 .content p{
   font-size: clamp(1rem, 2vw, 1.2rem); 
-    color: rgb(26, 4, 4);
+    color: #d6d0b8;
     line-height: 1.5;
     padding: 1em;
 } 
 
 /* first three children of card element */
 .card:nth-child(-n+3):hover{
-  background-color: aquamarine;
+   opacity: 0.5;
   cursor: pointer;
 
 }
 
 /* hover on image cards only */
-.card iframe{
+.card video{
   width: 100%;
   border: none;
 }
