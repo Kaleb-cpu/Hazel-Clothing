@@ -1,6 +1,6 @@
-# Course: CPNT 260 - Web Page Construction Fundamentals
+# Course: CPNT 262 - Web Client and Server Programming
 
-## Final Project
+## Assignment 6: Three-page SvelteKit Project
 ## Author name: Kaleb Berhane
 ### Attributions: 
   - https://cssgradient.io/
@@ -13,8 +13,8 @@
   - [Scaler Topics](https://www.scaler.com/topics/hamburger-menu/)
   
   #### GH Pages Site
-  - [GH Pages site](https://kaleb-cpu.github.io/cpnt260-final-project/)
+  - [GH Pages site](https://cpnt262-a6-alpha.vercel.app/home)
 
-**Terms and Conditions added footer link works**
+
 
 
