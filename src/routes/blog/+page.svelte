@@ -39,7 +39,9 @@
   </main>
 
   <style>
-
+    main{
+      flex: auto;
+    }
 /* page title */
 h1{
   color: brown;

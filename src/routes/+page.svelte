@@ -1,10 +1,11 @@
+      <main>
       <h1>Spring Season is here</h1>
       <div class="gallery">
         <div class="media-group">
          <a href="https://urban-planet.com/">
           <figure class="media-element">
             <h3>White Hoodie</h3>
-            <img src="./images/img-1.jpeg" alt="guy with top jeans style">
+            <img src="/images/img-1.jpeg" alt="guy with top jeans style">
             <figcaption>
               <p>Nike Girls' Therma-Fit Hoodie, Kids', Pullover, Kangaroo Pocket</p>
               <button>SHOP NOW</button>
@@ -14,17 +15,17 @@
         <a href="https://urban-planet.com/">
           <figure class="media-element">
             <h3>Long Sleeve</h3>
-            <img src="./images/img-2.jpeg" alt="men hoodie style">
+            <img src="/images/img-2.jpeg" alt="men hoodie style">
             <figcaption>
               <p>Under Armour Girls' Rival Terry Sweatshirt,light</p>
               <button>SHOP NOW</button>
-            </figcaption>
+              </figcaption>
           </figure>
         </a> 
         <a href="https://urban-planet.com/">
           <figure class="media-element">
             <h3>Tops</h3>
-            <img src="./images/img-3.jpeg" alt="men shorts style">
+            <img src="/images/img-3.jpeg" alt="men shorts style">
             <figcaption>
               <p>Paisley Print Kimono Cardigan, comes in orange</p>
               <button>SHOP NOW</button>
@@ -38,7 +39,7 @@
           <a href="https://urban-planet.com/">
             <figure class="media-element">
               <h3>Top Jacket</h3>
-              <img src="./images/img-4.jpeg" alt="guy with top jeans style">
+              <img src="/images/img-4.jpeg" alt="guy with top jeans style">
               <figcaption>
                 <p>Columbia Men's Valley Point Winter Ski Jacket, Insulated, Hooded, Waterproof</p>
                 <button>SHOP NOW</button>
@@ -48,7 +49,7 @@
           <a href="https://urban-planet.com/">
             <figure class="media-element">
               <h3>Men's Hoodie</h3>
-              <img src="./images/img-5.jpeg" alt="men hoodie style">
+              <img src="/images/img-5.jpeg" alt="men hoodie style">
               <figcaption>
                 <p>Nike Sportswear Men's Club BB Hoodie, Pullover, Drawstring</p>
                 <button>SHOP NOW</button>
@@ -59,7 +60,7 @@
           <a href="https://urban-planet.com/">
             <figure class="media-element">
               <h3>Shirts</h3>
-              <img src="./images/img-6.jpeg" alt="men shorts style">
+              <img src="/images/img-6.jpeg" alt="men shorts style">
               <figcaption>
                 <p>FWD Men's Push Seamless Midlayer Full Zip Training Hoodie</p>
                 <button>SHOP NOW</button>
@@ -72,7 +73,7 @@
           <a href="https://urban-planet.com/">
             <figure class="media-element">
               <h3>Light Tops</h3>
-              <img src="./images/img-7.jpg" alt="duo style clothing">
+              <img src="/images/img-7.jpg" alt="duo style clothing">
               <figcaption>
                 <p>Opens in a new window Gildan Adult Crew Fleece Sweatshirt - Black-white</p>
                 <button>SHOP NOW</button>
@@ -82,7 +83,7 @@
           <a href="https://urban-planet.com/">
             <figure class="media-element">
               <h3>Sweat Shirts</h3>
-              <img src="./images/img-8.jpg" alt="group clothing style">
+              <img src="/images/img-8.jpg" alt="group clothing style">
               <figcaption>
                 <p> T-shirt Solid Color Shirt Hip-hop Round Neck Top Long-sleeved</p>
                 <button>SHOP NOW</button>
@@ -92,7 +93,7 @@
           <a href="https://urban-planet.com/">
             <figure class="media-element">
               <h3>Youth</h3>
-              <img src="./images/img-9.jpeg" alt="group selfie style">
+              <img src="/images/img-9.jpeg" alt="group selfie style">
               <figcaption>
                 <p>Move Heavy Short Sleeve Tee Shirt Print in Black Size Small</p>
                 <button>SHOP NOW</button>
@@ -101,8 +102,12 @@
           </a>
         </div>
     </div>
-
+</main>
 <style>
+
+  main{
+    flex: auto;
+  }
   .gallery{
   display: grid;
   row-gap: 1rem;

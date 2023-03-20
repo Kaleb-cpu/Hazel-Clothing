@@ -5,11 +5,23 @@
   <header>
 
     <!-- header navigation logo and title -->
-    <a href="./+page.svelte" class="logo">
-      <img src="./images/logo.PNG" alt="hazel logo">
-      <span class="site-title">Hazel Clothing</span>
-    </a>
+  
+    
+    
+      <a href="./" class="logo">
+        <img src="./images/logo.PNG" alt="hazel logo">
+        <span class="site-title">Hazel Clothing</span>
+      </a>
+      
+      <input id="toggle" type="checkbox">
 
+      <label class="hamburger" for="toggle">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+     
+    
     <!-- header navigation -->
     <nav>
       <ul class="main-nav">
@@ -18,6 +30,8 @@
         <li><a href="./contact">Contact</a></li>
       </ul>
     </nav>
+  
+  
   </header>
 
    <slot></slot>
@@ -52,7 +66,7 @@
 
 
   <style>
-
+   
   </style>
   <!-- <slot></slot> -->
   
