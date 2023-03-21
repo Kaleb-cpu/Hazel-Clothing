@@ -1,7 +1,6 @@
 <svelte:head>
 	<title>home</title>
 	<meta name="robots" content="noindex nofollow" />
-	
 </svelte:head>
 
 <main>
