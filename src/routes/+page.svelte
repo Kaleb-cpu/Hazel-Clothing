@@ -56,7 +56,6 @@ h1:hover{
 
 @media only screen and (max-width: 60em) {
   h1{
-    margin-top: 68vh;
     border: 5px solid #90b8f8;
     padding: 1rem 0.6rem;
   }

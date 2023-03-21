@@ -69,7 +69,7 @@
 
 	/* where people would write */
 	input {
-		width: 25ch;
+		width: max-content;
 		border: 3px solid #292c34;
 		border-radius: 5px;
 		padding: 0.2em;
