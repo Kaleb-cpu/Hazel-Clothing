@@ -15,6 +15,3 @@
   #### GH Pages Site
   - [GH Pages site](https://cpnt262-a6-one.vercel.app/)
 
-
-
-

@@ -1,7 +1,7 @@
 <svelte:head>
 	<title>blog</title>
 	<meta name="robots" content="noindex nofollow" />
-	<html lang="en" />
+	<!-- <html lang="en" /> -->
 </svelte:head>
 
 <main>

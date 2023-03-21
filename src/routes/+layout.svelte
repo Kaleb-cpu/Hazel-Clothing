@@ -44,7 +44,8 @@
 
 <!-- company footer navigation  -->
 <footer>
-	<div class="nav-media">
+	
+	<div class="nav-social">
 		<nav>
 			<ul class="footer-nav">
 				<li><a href="./">Home</a></li>
@@ -53,7 +54,7 @@
 				<li><a href="./contact">Contact</a></li>
 			</ul>
 		</nav>
-	</div>
+	
 
 	<!-- company social media -->
 	<div class="social-media">
@@ -62,6 +63,8 @@
 		<a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" /></a>
 		<a href="https://www.youtube.com/"><i class="fa-brands fa-youtube" /></a>
 	</div>
+</div>
+	
 
 	<!-- company information -->
 	<div class="copy-right">
@@ -72,5 +75,4 @@
 </footer>
 
 
-<style>
-</style>
+

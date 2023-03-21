@@ -1,7 +1,7 @@
 <svelte:head>
 	<title>contact</title>
 	<meta name="robots" content="noindex nofollow" />
-	<html lang="en" />
+	<!-- <html lang="en" /> -->
 </svelte:head>
 <main>
 	<h1>Contact US</h1>
