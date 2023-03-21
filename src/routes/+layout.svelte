@@ -1,5 +1,5 @@
 <script>
-	import './app.css';
+	import "./app.css"
 </script>
 
 <header>
@@ -32,23 +32,25 @@
 	<!-- header navigation -->
 	<nav>
 		<ul class="main-nav">
-			<li><a href="/">Home</a></li>
-			<li><a href="/blog">Blog</a></li>
-			<li><a href="/contact">Contact</a></li>
+			<li><a href="./">Home</a></li>
+			<li><a href="./gallery">Gallery</a></li>
+			<li><a href="./blog">Blog</a></li>
+			<li><a href="./contact">Contact</a></li>
 		</ul>
 	</nav>
 </header>
 
-<slot />
+<slot></slot>
 
 <!-- company footer navigation  -->
 <footer>
 	<div class="nav-media">
 		<nav>
 			<ul class="footer-nav">
-				<li><a href="/">Home</a></li>
-				<li><a href="/blog">Blog</a></li>
-				<li><a href="/contact">Contact</a></li>
+				<li><a href="./">Home</a></li>
+				<li><a href="./blog">Blog</a></li>
+				<li><a href="./gallery">Gallery</a></li>
+				<li><a href="./contact">Contact</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -68,6 +70,7 @@
 		<p>&copy; Kaleb Berhane. All rights reserved</p>
 	</div>
 </footer>
+
 
 <style>
 </style>

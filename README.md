@@ -1,38 +1,20 @@
-# create-svelte
+# Course: CPNT 262 - Web Client and Server Programming
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Assignment 6: Three-page SvelteKit Project
+## Author name: Kaleb Berhane
+### Attributions: 
+  - https://cssgradient.io/
+  - [Kevin Powell](https://www.youtube.com/watch?v=3yfswsnD2sw)
+  - [Image-Freepik](https://www.freepik.com/free-photo/portrait-young-adults-wearing-hoodie-mockup_23371142.htm#query=woman%20hoodie&position=7&from_view=keyword)
+  - [Image-Freepik](https://www.freepik.com/free-photo/young-woman-shirt-holding-hands-head-looking-nice_13134526.htm#query=woman%20long%20sleeve%20style&position=25&from_view=search&track=ais)
+  - [Image-Freepik](https://www.freepik.com/free-photo/stylish-woman-standing-white-stylish-orange-sweater-multicolor-stripe-culotte_9447742.htm#page=2&query=woman%20clothing%20style&position=18&from_view=search&track=ais)
+  - [Image-Freepik](https://saclab.com/luxury-bag-101-how-to-choose-your-first-high-end-handbag/)
 
-## Creating a project
+  - [Scaler Topics](https://www.scaler.com/topics/hamburger-menu/)
+  
+  #### GH Pages Site
+  - [GH Pages site](https://cpnt262-a6-alpha.vercel.app/home)
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
