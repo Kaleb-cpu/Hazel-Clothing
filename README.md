@@ -13,7 +13,7 @@
   - [Scaler Topics](https://www.scaler.com/topics/hamburger-menu/)
   
   #### GH Pages Site
-  - [GH Pages site](https://cpnt262-a6-alpha.vercel.app/home)
+  - [GH Pages site](https://cpnt262-a6-one.vercel.app/)
 
 
 
