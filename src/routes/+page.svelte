@@ -1,15 +1,15 @@
 <svelte:head>
 	<title>home</title>
 	<meta name="robots" content="noindex nofollow" />
-	<!-- <html lang="en" /> -->
+	
 </svelte:head>
 
 <main>
 
   <h1>Shop now</h1>
 
-	<video id="background-video" autoplay loop controls muted poster="https://assets.codepen.io/6093409/river.jpg">
-<source src="./videos/How to Break into the Fashion Industry with Alexa Chung S1, E1 Future of Fashion British Vogue.mp4" type="video/mp4">
+	<video id="background-video" autoplay loop controls muted poster>
+  <source src="./videos/How to Break into the Fashion Industry with Alexa Chung S1, E1 Future of Fashion British Vogue.mp4" type="video/mp4">
 </video>
 
 </main>

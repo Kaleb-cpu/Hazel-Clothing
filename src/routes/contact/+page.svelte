@@ -70,9 +70,10 @@
 
 	/* where people would write */
 	input {
-		border: 3px solid #5f85db;
+		width: 25ch;
+		border: 3px solid #292c34;
 		border-radius: 5px;
-		padding: 0.6em;
+		padding: 0.2em;
 		font-size: clamp(1rem, 1.5vw, 2rem);
 	}
 	input[type='text']:focus,
