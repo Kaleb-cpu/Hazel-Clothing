@@ -6,7 +6,7 @@
 
 <main>
 
-  <h1>Shop Now</h1>
+  <a href="./gallery"><h1>Shop Now</h1></a>
 
 	<video id="background-video" autoplay loop controls muted poster>
   <source src="./videos/How to Break into the Fashion Industry with Alexa Chung S1, E1 Future of Fashion British Vogue.mp4" type="video/mp4">
@@ -31,17 +31,19 @@
 }
 
 h1 {
-  display: flex;
-  justify-content: flex-end;
+
+  /* fonts */
   color: white;
   font-family: Trebuchet MS;
   font-weight: bold;
-  text-align: center;
-  font-size: clamp(1rem, 10vw, 5rem);
+  font-size: clamp(0.9rem, 9vw, 5rem);
+
+  /* position */
   margin-top: 55vh;
   float: right;
   margin-right: 1rem;
-  width: max-content;
+
+  /* style */
   border: 7px solid #90b8f8;
   padding: 2.2rem 1rem;
   border-radius: 10px;
@@ -53,5 +55,11 @@ h1:hover{
 }
 
 
-
+@media only screen and (max-width: 60em) {
+  h1{
+    margin-top: 68vh;
+    border: 5px solid #90b8f8;
+    padding: 1rem 0.6rem;
+  }
+}
 </style>

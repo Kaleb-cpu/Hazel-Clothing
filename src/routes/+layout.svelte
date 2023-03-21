@@ -74,5 +74,13 @@
 	</div>
 </footer>
 
+<style>
+	@media only screen and (max-width: 60em) {
+		.social-media{
+			margin: 0.3em;
+		}
+	}
+</style>
+
 
 
