@@ -43,7 +43,6 @@ h1 {
   margin-right: 1rem;
 
   /* style */
-  border: 7px solid #90b8f8;
   padding: 2.2rem 1rem;
   border-radius: 10px;
 }
