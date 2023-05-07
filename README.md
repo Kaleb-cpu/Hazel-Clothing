@@ -1,6 +1,6 @@
-# Course: CPNT 262 - Web Client and Server Programming
+# Web Client and Server Programming
 
-## Assignment 6: Three-page SvelteKit Project
+## Three-page SvelteKit Project
 ## Author name: Kaleb Berhane
 ### Attributions: 
   - https://cssgradient.io/
